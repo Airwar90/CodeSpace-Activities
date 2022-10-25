@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+	
+ 
+
+<script>
+	sampleArray = [2, 10, 3, 4, 7];
+	function showContent (a) {
+			console.log('The content of the array is: [' + a + ']');
+	}
+	function findMax (a) {
+		let max = a[0];
+		
+		
+		for (let i = 0; i < (a.length - 1); i++) {
+			if (a[i] > max) {
+				max = a[i];}
+			
+		}
+		console.log('The max value is: ' + max);
+	}
+	
+	showContent(sampleArray);
+	findMax(sampleArray);
+</script>
+
+  
+</body>
+
+</html>

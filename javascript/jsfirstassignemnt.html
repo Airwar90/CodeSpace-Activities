@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+ 
+
+<script>
+const a = prompt("Pick your first number: ");
+const b = prompt("Pick your second number: ");
+const c = prompt("pick your third number: "); //user input for the three numbers
+
+if(a==b) {  //if the first two are equals
+	if(b==c) {
+		alert("All numbers are equal"); //nested condition to see if also the thirs number is equal
+	}
+	else {
+		alert("Neither all are equal or different"); //if not it means that only a and b are equals
+	
+	}
+	}
+else { //a and b are different 
+	if(b==c) {
+		alert("Neither all are equal or different"); //c equals b so this is the outcome
+		}
+	else if(a==c) {
+		alert("Neither all are equal or different");
+		}	
+	else {
+			alert("All numbers are different"); //all the numbers are different
+	}
+	}
+</script>
+
+  
+</body>
+
+</html>
